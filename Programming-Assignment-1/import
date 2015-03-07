@@ -1,0 +1,17 @@
+LOAD DATA LOCAL INFILE '/Users/brunomacedo/Desktop/NYU-Poly/3rd\ Semester/Big\ Data/homework/homework\ 1/fare_data_week1.csv' 
+INTO TABLE fares 
+FIELDS TERMINATED BY ','
+LINES TERMINATED BY '\r\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE '/Users/brunomacedo/Desktop/NYU-Poly/3rd\ Semester/Big\ Data/homework/homework\ 1/trip_data_week1.csv' 
+INTO TABLE trips 
+FIELDS TERMINATED BY ','
+LINES TERMINATED BY '\r\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE '/Users/brunomacedo/Desktop/NYU-Poly/3rd\ Semester/Big\ Data/homework/homework\ 1/licenses.txt' 
+INTO TABLE medallions 
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\r\n'
+IGNORE 1 LINES;
