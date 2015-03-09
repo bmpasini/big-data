@@ -24,7 +24,7 @@ for line in sys.stdin:
 
     for word in l:
         
-        word = word.lower()
+        # word = word.lower()
         word = clean_word(word)
         
         if dont_stop(word):

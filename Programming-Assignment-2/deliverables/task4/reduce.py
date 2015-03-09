@@ -18,7 +18,7 @@ def get_words(word_list):
     return uniq_words
 
 # Input: List from map
-# Output: { "word" => { "0000" => count, "0001" => count, ... } }
+# Output: Unorganized { "word" => { "0000" => count, "0001" => count, ... } }
 def put_same_together(word_list):
     reorganized_list = {}
     uniq_words = get_words(word_list)

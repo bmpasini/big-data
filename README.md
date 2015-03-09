@@ -1,4 +1,4 @@
-Big-Data
+Big Data
 ============================================================
 
 Week 1 Assignment - Exploring NYC Taxi Data using SQL
