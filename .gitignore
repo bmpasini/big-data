@@ -1,2 +1,9 @@
-Assignment-3/local/input_data/*
-Assignment-3/aws/input_data/*
+Assignment-1/licences.csv
+Assignment-1/licences.txt
+Assignment-2/articles/*
+Assignment-3/local/input_data/*.csv
+Assignment-3/aws/input_data/*.csv
+Assignment-3/aws/input_data/fare_data_week1.csv
+Assignment-3/aws/input_data/trip_data_week1.csv
+*.csv
+*.txt
