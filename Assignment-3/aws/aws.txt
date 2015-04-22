@@ -1,1 +1,130 @@
-aws.txt
+Task 1
+https://s3.amazonaws.com/nyu2015-bmpasini/assignment-3/task1/TripFareJoin/part-00000
+https://s3.amazonaws.com/nyu2015-bmpasini/assignment-3/task1/TripFareJoin/part-00001
+
+Task 2 (a)
+https://s3.amazonaws.com/nyu2015-bmpasini/assignment-3/task2-a/FareAmounts/part-00000
+https://s3.amazonaws.com/nyu2015-bmpasini/assignment-3/task2-a/FareAmounts/part-00001
+
+Task 2 (b)
+https://s3.amazonaws.com/nyu2015-bmpasini/assignment-3/task2-b/TripAmount/part-00000
+https://s3.amazonaws.com/nyu2015-bmpasini/assignment-3/task2-b/TripAmount/part-00001
+
+Task 2 (c)
+https://s3.amazonaws.com/nyu2015-bmpasini/assignment-3/task2-c/NumberPassengers/part-00000
+https://s3.amazonaws.com/nyu2015-bmpasini/assignment-3/task2-c/NumberPassengers/part-00001
+
+Task 2 (d)
+https://s3.amazonaws.com/nyu2015-bmpasini/assignment-3/task2-d/TotalRevenue/part-00000
+https://s3.amazonaws.com/nyu2015-bmpasini/assignment-3/task2-d/TotalRevenue/part-00001
+
+Task 2 (e)
+https://s3.amazonaws.com/nyu2015-bmpasini/assignment-3/task2-e/MedallionTrips/part-00000
+https://s3.amazonaws.com/nyu2015-bmpasini/assignment-3/task2-e/MedallionTrips/part-00001
+
+Task 2 (f)
+https://s3.amazonaws.com/nyu2015-bmpasini/assignment-3/task2-f/UniqueTaxis/part-00000
+https://s3.amazonaws.com/nyu2015-bmpasini/assignment-3/task2-f/UniqueTaxis/part-00001
+
+Task 3
+https://s3.amazonaws.com/nyu2015-bmpasini/assignment-3/task3/VehicleJoin/part-00000
+https://s3.amazonaws.com/nyu2015-bmpasini/assignment-3/task3/VehicleJoin/part-00001
+
+Task 4 (a)
+https://s3.amazonaws.com/nyu2015-bmpasini/assignment-3/task4-a/VehicleType/part-00000
+https://s3.amazonaws.com/nyu2015-bmpasini/assignment-3/task4-a/VehicleType/part-00001
+
+Task 4 (b)
+https://s3.amazonaws.com/nyu2015-bmpasini/assignment-3/task4-b/Top10Revenue/part-00000
+
+
+
+s3://nyu2015-bmpasini/assignment-3/task1/map.py
+s3://nyu2015-bmpasini/assignment-3/task1/reduce.py
+s3://nyu2015-bmpasini/assignment-3/task1/input_data/
+s3://nyu2015-bmpasini/assignment-3/task1/TripFareJoin/
+-D mapreduce.job.reduces=2
+
+s3://nyu2015-bmpasini/assignment-3/task2-a/map.py
+s3://nyu2015-bmpasini/assignment-3/task2-a/reduce.py
+s3://nyu2015-bmpasini/assignment-3/task1/TripFareJoin/
+s3://nyu2015-bmpasini/assignment-3/task2-a/FareAmounts/
+-D mapreduce.job.reduces=2
+
+s3://nyu2015-bmpasini/assignment-3/task2-b/map.py
+s3://nyu2015-bmpasini/assignment-3/task2-b/reduce.py
+s3://nyu2015-bmpasini/assignment-3/task1/TripFareJoin/
+s3://nyu2015-bmpasini/assignment-3/task2-b/TripAmount/
+-D mapreduce.job.reduces=2
+
+s3://nyu2015-bmpasini/assignment-3/task2-c/map.py
+s3://nyu2015-bmpasini/assignment-3/task2-c/reduce.py
+s3://nyu2015-bmpasini/assignment-3/task1/TripFareJoin/
+s3://nyu2015-bmpasini/assignment-3/task2-c/NumberPassengers/
+-D mapreduce.job.reduces=2
+
+s3://nyu2015-bmpasini/assignment-3/task2-d/map.py
+s3://nyu2015-bmpasini/assignment-3/task2-d/reduce.py
+s3://nyu2015-bmpasini/assignment-3/task1/TripFareJoin/
+s3://nyu2015-bmpasini/assignment-3/task2-d/TotalRevenue/
+-D mapreduce.job.reduces=2
+
+s3://nyu2015-bmpasini/assignment-3/task2-e/map.py
+s3://nyu2015-bmpasini/assignment-3/task2-e/reduce.py
+s3://nyu2015-bmpasini/assignment-3/task1/TripFareJoin/
+s3://nyu2015-bmpasini/assignment-3/task2-e/MedallionTrips/
+-D mapreduce.job.reduces=2
+
+s3://nyu2015-bmpasini/assignment-3/task2-f/map.py
+s3://nyu2015-bmpasini/assignment-3/task2-f/reduce.py
+s3://nyu2015-bmpasini/assignment-3/task1/TripFareJoin/
+s3://nyu2015-bmpasini/assignment-3/task2-f/UniqueTaxis/
+-D mapreduce.job.reduces=2
+
+s3://nyu2015-bmpasini/assignment-3/task3/map.py
+s3://nyu2015-bmpasini/assignment-3/task3/reduce.py
+s3://nyu2015-bmpasini/assignment-3/task3/input_data/
+s3://nyu2015-bmpasini/assignment-3/task3/VehicleJoin/
+-D mapreduce.job.reduces=2
+
+s3://nyu2015-bmpasini/assignment-3/task4-a/map.py
+s3://nyu2015-bmpasini/assignment-3/task4-a/reduce.py
+s3://nyu2015-bmpasini/assignment-3/task3/VehicleJoin/
+s3://nyu2015-bmpasini/assignment-3/task4-a/VehicleType/
+-D mapreduce.job.reduces=2
+
+s3://nyu2015-bmpasini/assignment-3/task4-b/map.py
+s3://nyu2015-bmpasini/assignment-3/task4-b/reduce.py
+s3://nyu2015-bmpasini/assignment-3/task3/VehicleJoin/
+s3://nyu2015-bmpasini/assignment-3/task4-b/Top10Revenue/
+-D mapreduce.job.reduces=1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+aws emr create-cluster --name "TripFareJoin" --ami-version 3.5 \
+--use-default-roles --ec2-attributes KeyName=myKey \
+--instance-type m3.xlarge --instance-count 3 \
+--steps Type=CUSTOM_JAR,Name="Custom JAR Step",ActionOnFailure=CONTINUE,Jar=pathtojarfile,\
+Args=["pathtoinputdata","pathtooutputbucket","arg1","arg2"]
+
+
+
+
+
+
+
+
