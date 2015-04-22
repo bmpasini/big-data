@@ -1,6 +1,11 @@
 Assignment-1/licences.csv
 Assignment-1/licences.txt
 Assignment-2/articles/*
+Assignment-2/deliverables/
+Assignment-2/task1/CleanWordCount/
+Assignment-2/task2/InitialCount/
+Assignment-2/task3/TopK/
+Assignment-2/task4/InvertedIndex/
 Assignment-3/local/input_data/*.csv
 Assignment-3/aws/input_data/*.csv
 Assignment-3/aws/input_data/fare_data_week1.csv
